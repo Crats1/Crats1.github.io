@@ -1,1 +1,47 @@
-Hello World
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    <title>Crats1</title>
+    <style>
+        body {
+            background-color: #181818;
+            font-family: Roboto Mono, monospace;
+        }
+
+        h1 {
+            font-size: 3em;
+            width: 31ch;
+            animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid;
+        }
+
+        main {
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+
+        main > h1 {
+            color: white;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0
+            }
+        }
+            
+        @keyframes blink {
+            50% {
+                border-color: transparent
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>I like to <a href="https://github.com/Crats1">make</a> and <a href="https://github.com/Crats1/CTF-WRITEUPS">break</a> things.</h1>
+    </main>
+</body>
